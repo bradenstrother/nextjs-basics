@@ -35,6 +35,8 @@ export async function getServerSideProps({ params }) {
     }
 }
 
+// Server Side Generation Method
+
 // export async function getStaticProps({ params }) {
 
 //     const req = await fetch(`http://localhost:3000/${params.id}.json`);
