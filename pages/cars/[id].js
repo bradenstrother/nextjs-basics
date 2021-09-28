@@ -18,6 +18,7 @@ export default function Car({ car }) {
                 </h1>
 
                 <img src={car.image} width="300px" />
+                <button onClick={() => router.back()}>Go Back</button>
 
             </main>
         </div>
